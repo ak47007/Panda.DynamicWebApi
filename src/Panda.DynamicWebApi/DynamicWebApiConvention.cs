@@ -15,7 +15,7 @@ namespace Panda.DynamicWebApi
     public class DynamicWebApiConvention: IApplicationModelConvention
     {
         private readonly IServiceCollection _services;
-        public DynamicWebApiConvention(IServiceCollection services)
+        public DynamicWebApiConvention(IServiceCollection services) 
         {
             this._services = services;
         }
